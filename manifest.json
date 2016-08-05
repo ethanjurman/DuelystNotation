@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "DuelystNotation",
+  "description": "Gives Duelyst Chess like notation",
+  "version": "1.6",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://play.duelyst.com/"],
+      "js": ["notation.js"]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "https://play.duelyst.com/"
+  ]
+}

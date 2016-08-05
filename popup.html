@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- popup.html -->
+<!-- Page that appears when clicking on the chrome extension-->
+<html>
+ <head>
+   <title>Duelyst Notation</title>
+   <!-- <link rel="stylesheet" href="popup.css"> -->
+
+   <!-- main popup javascript -->
+   <script src="popup.js"></script>
+ </head>
+ <body>
+   <div>
+     Toggle with "n" key on keyboard
+     <h4> Left Notation </h4>
+     Spacing:
+     <input id="lineHeight" type="number" value="88">
+     Vertical Adjust:
+     <input id="lBottom" type="number" value="29">
+     Horizontal Adjust:
+     <input id="lRight" type="number" value="50">
+   </div>
+   <div>
+     <h4> Botton Notation </h4>
+     Spacing:
+     <input id="letterSpacing" type="number" value="80">
+     Vertical Adjust:
+     <input id="bBottom" type="number" value="77">
+     Horizontal Adjust:
+     <input id="bRight" type="number" value="11">
+   </div>
+   <div>
+     <h4> Font </h4>
+     Font Size:
+     <input id="fontSize" type="number" value="40" step="1">
+     Alpha:
+     <input id="alpha" type="number" value="0.75" step="0.05">
+   </div>
+   <button id="reset"> reset </button>
+ </body>
+</html>
