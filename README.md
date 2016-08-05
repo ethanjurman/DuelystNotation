@@ -1,6 +1,8 @@
 # Duelyst Notation
 Gives Duelyst notation for rows and columns, making it easier to communicate about the board state.
 
+Download here: https://chrome.google.com/webstore/detail/duelystnotation/opnabmigpehkkncbdphgjdnmiablhlhn
+
 ![image](https://cloud.githubusercontent.com/assets/326557/17452394/ec0ec54c-5b3c-11e6-9e89-73828b0cc442.png)
 
 ## Use Case
