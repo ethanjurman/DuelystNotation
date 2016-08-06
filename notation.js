@@ -34,7 +34,7 @@ function buildLeftNotation() {
   var leftRegion = document.getElementById('app-game-left-region')
   var lNotation = document.createElement("div")
   lNotation.setAttribute('id','l-notation')
-  lNotation.appendChild(document.createTextNode("edcba"))
+  lNotation.appendChild(document.createTextNode("abcde"))
 
   lNotation.style.fontSize=getStyle('fontSize')+"px"
   lNotation.style.width="1px"

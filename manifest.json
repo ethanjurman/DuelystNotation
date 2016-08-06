@@ -3,7 +3,7 @@
 
   "name": "DuelystNotation",
   "description": "Gives Duelyst Chess like notation",
-  "version": "1.6",
+  "version": "1.7",
   "browser_action": {
     "default_popup": "popup.html"
   },
